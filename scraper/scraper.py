@@ -9,9 +9,6 @@ q1 = soup('h3')
 
 for tag in q1:
     for i in tag:
-        print i.contents
-
-        #for r in p
-        #    print r.split()
-
-  #get('href', None)
+        for j in i:
+            j = j[0:]
+            print j
